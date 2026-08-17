@@ -45,7 +45,7 @@ int main() {
     
     cat1 = pow((x2-x1), 2);
     cat2 = pow((y2-y1), 2);
-    dist = cat1 + cat2;
+    dist = sqrt(cat1 + cat2);
     
     printf("%.2f", dist);
     
